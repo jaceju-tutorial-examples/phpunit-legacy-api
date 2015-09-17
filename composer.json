@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lab4\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
